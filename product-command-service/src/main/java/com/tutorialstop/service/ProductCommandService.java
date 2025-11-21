@@ -1,8 +1,8 @@
-package com.javatechie.service;
+package com.tutorialstop.service;
 
-import com.javatechie.dto.ProductEvent;
-import com.javatechie.entity.Product;
-import com.javatechie.repository.ProductRepository;
+import com.tutorialstop.dto.ProductEvent;
+import com.tutorialstop.entity.Product;
+import com.tutorialstop.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;

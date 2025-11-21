@@ -1,8 +1,8 @@
-package com.javatechie.controller;
+package com.tutorialstop.controller;
 
-import com.javatechie.dto.ProductEvent;
-import com.javatechie.entity.Product;
-import com.javatechie.service.ProductCommandService;
+import com.tutorialstop.dto.ProductEvent;
+import com.tutorialstop.entity.Product;
+import com.tutorialstop.service.ProductCommandService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
